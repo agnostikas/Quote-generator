@@ -1,0 +1,35 @@
+body {
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+    ), url(https://pixabay.com/get/eb34b6082bf6053ed1534705fb0938c9bd22ffd41cb0144693f7c871ae/sunset-2177324_1920.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+.jumbotron {
+	background-color:transparent !important; 
+}
+
+h1 { 
+	color: blanchedalmond; 
+	font-family: 'Century Gothic', sans-serif; 
+	font-size: 115px;
+	font-weight: 700;
+	letter-spacing: 2px; 
+	line-height: 1.1; 
+	text-align: center;
+	opacity: 0.65;
+}
+
+#quoteDisplay {
+	font-family: 'Akzidenz-Grotesk';
+	font-size:70px;
+	line-height:0.8;
+	text-shadow: 2px 2px 8px #FF0000;
+	text-align:relative;
+	opacity: 0.8;
+	padding: 55px 45px;
+}
